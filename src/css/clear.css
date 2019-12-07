@@ -1,0 +1,13 @@
+/*清除ant-mobile样式*/
+.buttonList .am-button{
+    color: #000;
+    flex: 1;
+    padding: 0;
+    border: none;
+    border-right: 1px solid #000;
+    border-radius: unset;
+    background-color: transparent;
+}
+.buttonList .am-button:last-child{
+    border-right: none;
+}

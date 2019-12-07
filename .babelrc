@@ -1,0 +1,27 @@
+{
+  "plugins": [
+    [
+      "import",
+      {
+        "libraryName": "antd-mobile",
+        "style": "css"
+      }
+    ]
+    // `style: true` 会加载 less 文件
+  ],
+  "presets": [
+    [
+      "env",
+      {
+        "modules": false,
+        "targets": {
+          "browsers": [
+            "last 2 versions",
+            "safari >= 11",
+            "ie >= 10"
+          ]
+        }
+      }
+    ]
+  ]
+}

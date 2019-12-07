@@ -1,0 +1,109 @@
+#root, .App, .main {
+  text-align: center;
+  height: 100%;
+}
+.main{
+  display: flex;
+  flex-direction: column
+}
+.main .videoList{
+  display: flex;
+  flex-wrap: wrap;
+}
+.videoList > *{
+  flex: 1;
+}
+.joinRoom{
+  transform: translate(0, 30%);
+  padding: 30px 60px
+}
+.joinRoom .am-button{
+  margin-top: 200px
+}
+.videoContainer{
+  position: relative;
+  height: fit-content;
+  overflow: hidden;
+  flex: 1;
+  /*margin: 0 auto;*/
+}
+.videoContainer video{
+  width: 100%;
+  height: 100%;
+  display: block;
+}
+.videoContainer .buttonList{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  background-color: rgba(0,0,0,0.2);
+  transform: translate(0, 100%);
+  transition: transform .2s;
+}
+.videoContainer .videoInfo{
+  position: absolute;
+  top: 0;
+  width: 100%;
+  padding: 10px 0;
+  background-color: rgba(0,0,0,0.2);
+  transform: translate(0, -100%);
+  transition: transform .2s;
+}
+.videoContainer.active .videoInfo, .videoContainer.active .buttonList{
+  transform: translate(0, 0)
+}
+.localStream, .remoteStream{
+  display: flex;
+  align-items: center;
+  background-color: #000;
+  min-width: 50%;
+}
+#userList{
+  /*display: none;*/
+  transform: translateY(-100%);
+  overflow-y: auto;
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  z-index: 1;
+}
+#userList .am-list{
+  transform: translateY(-100%);
+  transition: transform .2s;
+}
+#userList.active{
+  transform: translateY(0);
+  /*display: block;*/
+}
+#userList.active .am-list{
+  transform: translateY(0);
+}
+#userList .screen-mask{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: rgba(0,0,0,0.3);
+}
+.navBar{
+  z-index: 2;
+}
+.fixed-space{
+  width: 100%;
+  height: 45px;
+}
+.iconfont{
+  font-size: 1.8rem;
+}
+.iconfont + .iconfont{
+  margin-left: 1rem;
+}
+.am-list-body{
+  border: unset!important;
+}
+.mask{
+  width: 100%;
+  height: 100%;
+  z-index: 99;
+  position: absolute;
+}

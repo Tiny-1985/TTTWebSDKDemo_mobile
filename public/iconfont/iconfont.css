@@ -1,0 +1,69 @@
+@font-face {font-family: "iconfont";
+  src: url('iconfont.eot?t=1565950038396'); /* IE9 */
+  src: url('iconfont.eot?t=1565950038396#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('data:application/x-font-woff2;charset=utf-8;base64,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') format('woff2'),
+  url('iconfont.woff?t=1565950038396') format('woff'),
+  url('iconfont.ttf?t=1565950038396') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+ */
+  url('iconfont.svg?t=1565950038396#iconfont') format('svg'); /* iOS 4.1- */
+}
+
+.iconfont {
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-close-circle:before {
+  content: "\e77d";
+}
+
+.icon-info-circle:before {
+  content: "\e77e";
+}
+
+.icon-play-circle:before {
+  content: "\e781";
+}
+
+.icon-poweroff:before {
+  content: "\e78c";
+}
+
+.icon-logout:before {
+  content: "\e78d";
+}
+
+.icon-team:before {
+  content: "\e7ae";
+}
+
+.icon-camera:before {
+  content: "\e7d7";
+}
+
+.icon-ellipsis:before {
+  content: "\e7fc";
+}
+
+.icon-camera-fill:before {
+  content: "\e86f";
+}
+
+.icon-audio:before {
+  content: "\e897";
+}
+
+.icon-audio-fill:before {
+  content: "\e898";
+}
+
+.icon-videocameraadd:before {
+  content: "\e8ea";
+}
+
+.icon-login-out:before {
+  content: "\e8ef";
+}
+
